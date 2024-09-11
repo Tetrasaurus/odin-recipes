@@ -20,6 +20,7 @@ p {
 /* Classes */
 
 .recipes {
+  background-color: rgb(249, 192, 238);
   text-align: center;
   height: 50px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -32,4 +33,9 @@ p {
 .images {
   height: 300px;
   width: auto;
+}
+
+.button {
+  background-color: rgb(108, 229, 132);
+  border-radius: 5px;
 }
