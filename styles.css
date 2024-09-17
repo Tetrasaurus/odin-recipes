@@ -1,58 +1,90 @@
 /* Type selectors */
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 42px;
+  color: white;
+  border: 5px solid rgb(230, 239, 255);
+  border-radius: 20px;
+  margin: 80px auto 45px;
+  width: fit-content;
+  padding: 10px;
 }
 
 p {
   text-align: center;
   margin: auto;
-  width: 50%;
+  width: 650px;
   padding: 10px;
+  background-color: rgb(230, 239, 255);
+}
+
+div {
+  text-align: center;
+  border: 5px solid rgb(230, 239, 255);
+  padding: 10px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+ul {
+  width: 80%;
+  text-align: left;
 }
 
 /* Classes */
 
 .recipes {
   background-color: rgb(155, 214, 149);
-  border: 4px solid rgb(250, 250, 166);
+  border: 4px solid rgb(230, 239, 255);
   text-align: center;
   height: 50px 0;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", sans-serif;
+  padding: 20px;
   margin: auto;
 }
 
 .centre {
   margin: auto;
-  width: 50%;
+  width: 30%;
   border-radius: 40px;
+  margin: 1em auto;
 }
 
 .centre2 {
   margin: auto;
-  width: 65%;
+  width: 40%;
   border-radius: 40px;
 }
 
 .ingredients {
-  align-content: center;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  width: 650px;
+  border-radius: 0;
 }
 
 .images {
-  height: 400px;
-  width: auto;
+  height: auto;
+  width: 650px;
   border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.button {
+.span {
   background-color: rgb(180, 180, 180);
   border-radius: 10px;
+  padding: 4px;
+  border: 2px solid rgb(0, 0, 0);
 }
 
-.button a {
-  color: black;
+.span a {
+  color: rgb(3, 2, 2);
   font-weight: 800;
 }
 
@@ -66,7 +98,79 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
+.span:hover {
   text-decoration: none;
   color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.span a:hover {
+  color: white;
+}
+
+/* Lucys Zooty Fruity */
+
+.message1 {
+  width: fit-content;
+  border: 5px solid rgb(230, 239, 255);
+  background-color: rgb(44, 113, 19);
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.message1 p {
+  border-radius: 20px;
+}
+
+.one {
+  border-radius: 20px;
+}
+
+.ingredients p {
+  background-color: rgb(57, 96, 43);
+  color: rgb(230, 239, 255);
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.button1 {
+  margin: 0 2em;
+  width: fit-content;
+  padding: 0;
+  border: 3px solid rgb(230, 239, 255);
+  border-radius: 10px;
+}
+
+/* Choco-nana */
+
+.message3 {
+  width: fit-content;
+  margin-bottom: 1em;
+  border-radius: 20px;
+  background-color: rgb(38, 18, 5);
+}
+
+.message3 p {
+  border-radius: 20px;
+}
+
+.ingredients.three {
+  background-color: rgb(38, 18, 5);
+  color: rgb(140, 74, 33);
+}
+
+.ingredients.three p {
+  background-color: rgb(38, 18, 5);
+}
+
+.three {
+  border-radius: 20px;
+}
+
+.button3 {
+  margin-right: 2em;
+  width: fit-content;
+  padding: 0;
+  border: 3px solid rgb(230, 239, 255);
+  border-radius: 10px;
 }
